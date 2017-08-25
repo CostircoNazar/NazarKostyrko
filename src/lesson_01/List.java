@@ -1,4 +1,4 @@
-package lesson_01;
+/*package lesson_01;
 
 import com.sun.jdi.VMOutOfMemoryException;
 
@@ -82,4 +82,4 @@ public class List {
 //Arrays.sort(arrBox);
 
 
-}
+}*/

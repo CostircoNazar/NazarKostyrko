@@ -1,6 +1,6 @@
 package lesson_01;
 
-public class ListMain {
+/*public class ListMain {
     public static void main(String[] args) {
         List list = new List(16, 1.05);
         final int SIZE = 12;
@@ -25,4 +25,4 @@ public class ListMain {
         System.out.println(list);
 
     }
-}
+}*/
