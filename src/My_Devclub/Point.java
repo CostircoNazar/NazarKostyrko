@@ -1,4 +1,4 @@
-package lesson_01;
+package My_Devclub;
 
 public class Point implements Cloneable {
     private double x;

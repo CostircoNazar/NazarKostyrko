@@ -1,7 +1,7 @@
-package lesson_01;
+package My_Devclub;
 
-import OutOfFuelExeption.OutOfFuelExeption;
-import ToMuchFuelExeption.ToMuchFuelExeption;
+import My_Devclub.OutOfFuelExeption.OutOfFuelExeption;
+import My_Devclub.ToMuchFuelExeption.ToMuchFuelExeption;
 
 public class Car {
     private double fuelAmount;

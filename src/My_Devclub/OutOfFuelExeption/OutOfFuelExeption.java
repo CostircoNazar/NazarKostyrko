@@ -1,4 +1,4 @@
-package OutOfFuelExeption;
+package My_Devclub.OutOfFuelExeption;
 
 public class OutOfFuelExeption extends Exception {
     public static void main(String[] args) {

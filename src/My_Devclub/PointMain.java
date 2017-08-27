@@ -1,4 +1,4 @@
-package lesson_01;
+package My_Devclub;
 
 public class PointMain {
     public static void main(String[] args) throws CloneNotSupportedException {

@@ -59,8 +59,10 @@ public class Person {
     }
 
     public int getAge() {
-        //birthday.
-        return 0;
+       return
+        if (birthday.getYear() < 18) {
+            System.out.println("You need to grow up!!!!" + ! isAdult());
+        }
     }
 
 

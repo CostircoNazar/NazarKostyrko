@@ -1,4 +1,4 @@
-package ToMuchFuelExeption;
+package My_Devclub.ToMuchFuelExeption;
 
 public class ToMuchFuelExeption extends Throwable {
     public static void main(String[] args) {

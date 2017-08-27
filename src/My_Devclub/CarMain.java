@@ -1,6 +1,6 @@
-package lesson_01;
+package My_Devclub;
 
-import OutOfFuelExeption.OutOfFuelExeption;
+import My_Devclub.OutOfFuelExeption.OutOfFuelExeption;
 
 public class CarMain {
     public static void main(String[] args) throws OutOfFuelExeption {
