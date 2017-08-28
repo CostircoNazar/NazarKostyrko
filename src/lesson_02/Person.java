@@ -2,7 +2,10 @@ package lesson_02;
 
 import java.time.LocalDate;
 
+
 public class Person {
+    private static int nextId = 1;
+    private int id;
     private String name;
     private String surname;
     private LocalDate birthday;
@@ -10,7 +13,13 @@ public class Person {
     //private int age;
     private Sex sex;
 
+    {
+        id  = nextId;
+        nextId++;
+    }
+
     public Person() {
+        name = "no name";
     }
 
     public Person(String name, String surname, LocalDate birthday) {
@@ -58,11 +67,17 @@ public class Person {
         isAdult = adult;
     }
 
+
     public int getAge() {
-       return
+        LocalDate now = LocalDate.now();
+        //Period age =
+
+
         if ( birthday.getYear() < 18 ) {
             System.out.println("You need to grow up!!!!" + ! isAdult());
         }
+
+        return 0;
     }
 
 
@@ -74,10 +89,27 @@ public class Person {
         this.sex = sex;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public static int getNextId() {
+        return nextId;
+    }
+
+    public static Person getInstance(){
+        return  new Person();
+    }
+
+    public static Person[] getArrayInstance(int size){
+        return  new Person[size];
+    }
+
     @Override
     public String toString() {
         return "Person{" +
-                "name='" + name + '\'' +
+                "id=" + id +
+                ", name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
                 ", birthday=" + birthday +
                 ", isAdult=" + isAdult +
