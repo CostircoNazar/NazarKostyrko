@@ -8,7 +8,7 @@ public class TestClas {
             System.out.println(staff[i].toString());
         }
 
-        System.out.println("Next id = "+Person.getNextId());
+        //System.out.println("Next id = "+Person.getNextId());
 
 
 
