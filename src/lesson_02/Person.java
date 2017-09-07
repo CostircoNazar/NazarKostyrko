@@ -6,7 +6,7 @@ import java.time.temporal.ChronoUnit;
 import static lesson_02.Sex.FEMALE;
 import static lesson_02.Sex.MALE;
 
-public class Person {
+public abstract class Person {
     private String name;
     private String surname;
     private LocalDate birthday;
@@ -120,6 +120,8 @@ public class Person {
     public void setSex(Sex sex) {
     this.sex = sex;
     }
+
+    public abstract void showFullInfo();
 
     @Override
     public String toString() {

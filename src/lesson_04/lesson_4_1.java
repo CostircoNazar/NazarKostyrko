@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class lesson_4_1 {
     public static void main(String[] args) {
         Student st1 = new Student();
-        State sst1 = new State();
+        Student sst1 = new State();
 
         st1.deductions();
         //sst1.deductions();

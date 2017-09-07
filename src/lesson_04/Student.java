@@ -5,7 +5,7 @@ import lesson_02.Sex;
 
 import java.time.LocalDate;
 
-public class Student extends Person {
+public abstract class Student extends Person {
 private String group;
 private int id;
 

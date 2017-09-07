@@ -45,10 +45,39 @@ public class State extends Student {
     }
 
     @Override
+    public void showFullInfo() {
+        System.out.println( "State{" +
+                "salary=" + salary +
+                ", salary_available=" + salary_available +
+                "} " + super.toString());
+    }
+
+    @Override
     public String toString() {
         return "State{" +
                 "salary=" + salary +
                 ", salary_available=" + salary_available +
                 "} " + super.toString();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        State state = (State) o;
+
+        if (Double.compare(state.salary, salary) != 0) return false;
+        return salary_available == state.salary_available;
+    }
+
+    @Override
+    public int hashCode() {
+        int result;
+        long temp;
+        temp = Double.doubleToLongBits(salary);
+        result = (int) (temp ^ (temp >>> 32));
+        result = 31 * result + (salary_available ? 1 : 0);
+        return result;
     }
 }
