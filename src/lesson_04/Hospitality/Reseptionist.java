@@ -10,4 +10,4 @@ public class Reseptionist extends Front_Desk_Staff{
 public Reseptionist(Date joined, String education, String certification, String languages) {
         super(joined, education, certification, languages);
         }
-        }
+}

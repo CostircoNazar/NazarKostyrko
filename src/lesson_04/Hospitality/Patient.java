@@ -1,5 +1,7 @@
 package lesson_04.Hospitality;
 
+import java.util.Date;
+
 public class Patient extends Person{
     private static String id;
     private Integer age;
@@ -65,6 +67,96 @@ public class Patient extends Person{
 
     public void setSpecialReqs(String specialReqs) {
         this.specialReqs = specialReqs;
+    }
+
+    @Override
+    public String getTitle() {
+        return super.getTitle();
+    }
+
+    @Override
+    public void setTitle(String title) {
+        super.setTitle(title);
+    }
+
+    @Override
+    public String getGivenName() {
+        return super.getGivenName();
+    }
+
+    @Override
+    public void setGivenName(String givenName) {
+        super.setGivenName(givenName);
+    }
+
+    @Override
+    public String getMiddleName() {
+        return super.getMiddleName();
+    }
+
+    @Override
+    public void setMiddleName(String middleName) {
+        super.setMiddleName(middleName);
+    }
+
+    @Override
+    public String getFamilyName() {
+        return super.getFamilyName();
+    }
+
+    @Override
+    public void setFamilyName(String familyName) {
+        super.setFamilyName(familyName);
+    }
+
+    @Override
+    public FullName getName() {
+        return super.getName();
+    }
+
+    @Override
+    public void setName(FullName name) {
+        super.setName(name);
+    }
+
+    @Override
+    public Date getBirtDate() {
+        return super.getBirtDate();
+    }
+
+    @Override
+    public void setBirtDate(Date birtDate) {
+        super.setBirtDate(birtDate);
+    }
+
+    @Override
+    public Gender getGender() {
+        return super.getGender();
+    }
+
+    @Override
+    public void setGender(Gender gender) {
+        super.setGender(gender);
+    }
+
+    @Override
+    public Address getHomeAddress() {
+        return super.getHomeAddress();
+    }
+
+    @Override
+    public void setHomeAddress(Address homeAddress) {
+        super.setHomeAddress(homeAddress);
+    }
+
+    @Override
+    public Phone getPhone() {
+        return super.getPhone();
+    }
+
+    @Override
+    public void setPhone(Phone phone) {
+        super.setPhone(phone);
     }
 
     @Override
